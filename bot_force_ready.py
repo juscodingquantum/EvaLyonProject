@@ -1,48 +1,50 @@
 import time
 import pyautogui
-# dimensions du macbook M1 en réference : 2 560 x 1 600 pixels
+# Un petit bot pour force ready les 10 joueurs en meme temps. 
 def main():
-    pyautogui.click(1220, 800)
+    pyautogui.click(1542, 257)
 
-    pyautogui.click(1220, 700)
+    pyautogui.click(1542, 339)
 
-    pyautogui.click(1220, 650)
+    pyautogui.click(1542, 410)
 
-    pyautogui.click(1220, 600)
+    pyautogui.click(1542, 482)
 
-    pyautogui.click(1220, 550)
+    pyautogui.click(1542, 558)
 
-    pyautogui.click(1220, 500)
+    pyautogui.click(1542, 640)
 
-    pyautogui.click(1220, 450)
+    pyautogui.click(1542, 698)
 
-    pyautogui.click(1220, 400)
+    pyautogui.click(1542, 778)
 
-    pyautogui.click(1220, 350)
+    pyautogui.click(1542,855 )
 
-    pyautogui.click(1220, 300)
+    pyautogui.click(1542, 940)
 
-    pyautogui.click(1220, 250)
+    pyautogui.click(1420, 261)
 
-    pyautogui.click(1220, 200)
+    pyautogui.click(1420, 341)
 
-    pyautogui.click(1220, 150)
+    pyautogui.click(1420, 413)
 
-    pyautogui.click(1220, 100)
+    pyautogui.click(1420, 486)
 
-    pyautogui.click(1220, 50)
+    pyautogui.click(1420, 559)
 
-    pyautogui.click(1220, 0)
+    pyautogui.click(1420, 635)
 
-    pyautogui.click(1220, 50)
+    pyautogui.click(1420, 710)
 
-    pyautogui.click(1220, 100)
+    pyautogui.click(1420, 783)
 
-    pyautogui.click(1220, 150)
+    pyautogui.click(1420, 854)
 
-    pyautogui.click(1220, 200)
+    pyautogui.click(1420, 935)
 
-    pyautogui.click(500, 1450)
+    pyautogui.click(184,105)
+
+
 
 
 
