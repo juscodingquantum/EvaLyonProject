@@ -1,6 +1,8 @@
 import time
 import pyautogui
-# Un petit bot pour force ready les 10 joueurs en meme temps. 
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
+# dimensions du macbook M1 en réference : 2 560 x 1 600 pixels
 def main():
     pyautogui.click(1542, 257)
 
@@ -44,8 +46,28 @@ def main():
 
     pyautogui.click(184,105)
 
+class App(QWidget):
 
+    def __init__(self):
+        super().__init__()
+        self.initUI()
 
+    def initUI(self):
+        self.setWindowTitle("Bouton cliquable")
+
+        button = QPushButton("Cliquez-moi !", self)
+        button.clicked.connect(self.button_click)
+
+        self.show()
+
+    def button_click(self):
+        # Fonction à exécuter lorsque le bouton est cliqué
+        print("Bouton cliqué !")
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    ex = App()
+    sys.exit(app.exec_())
 
 
 if __name__ == "__main__":
